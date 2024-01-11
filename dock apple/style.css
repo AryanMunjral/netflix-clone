@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 93%;
+    margin-left: -234px;
+}
+.navbar{
+    display: flex;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+}
+.navlist{
+    width: 50%;
+    /* background-color: rgb(16, 16, 14); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-size: 18px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 906px;
+    background: rgba(0, 0, 0, 0.7) url('https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+.white{
+    font-size: 3.8rem;
+    padding: 30px;
+    color: white;
+}
+.primary{
+    font-size: 3.8rem;
+    padding: 30px;
+    color: black;
+}
+.secondary{
+    font-size: 2.5rem;
+    padding: 30px;
+}
+#services{
+    margin: 8px;
+    display: flex;
+    /* text-align: center; */
+    
+}
+#services .box{
+    background: #f2f2f2; 
+    border: 2px solid brown;
+    padding: 28px;
+    margin: 3px 6px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#services .box img{
+    
+    height: 306px;
+    width: 475px;
+    display: block;
+    margin: auto;
+}
+.small{
+    font-size: 21px;
+    padding: 10px 0px;
+    color: white;
+}
+.navlist li{
+list-style: none ;
+padding: 8px 24px;
+}
+.navlist li a:hover{
+    color: grey;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+.rightnav{
+    width: 50%;
+    /* background-color: purple; */
+    text-align: right;
+    padding: 0px 15px;
+} 
+#search{
+padding: 5px;
+font-size: 16px;
+border: 2px solid grey;
+border-radius: 8px;
+}
+.background{
+    /* background: rgba(0, 0, 0, 0.7) url('https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png'); */
+    background-color: black;
+    background-size: cover;
+    background-blend-mode: darken;
+} 
+.firstsection{
+    height: 100vh;
+}
+.boxmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    max-width: 50%;
+    height:62%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 108px;
+    display: block;
+    margin: auto;
+}
+.textbig{
+font-size: 30px;
+}
+.textsmall{
+font-size: 18px;
+}
+.btn{
+    font-size: 14px;
+    padding: 9px 19px;
+    margin: 11px 5px;
+    border: 2px solid #fcfcff;
+    border-radius: 9px;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+.btns{
+    font-size: 14px;
+    padding: 9px 19px;
+    margin: 11px 5px;
+    border: 2px solid #fcfcff;
+    border-radius: 9px;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+.btn-sm{
+    padding:4px 14px;
+    vertical-align: middle;
+}
+.secright{
+    height: 500px;
+    display: flex;
+
+}
+.centre
+{
+    text-align: center;
+}
+#client-section{
+height: 350px;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -13px 0px ;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg');
+    width: 100%;
+    height: 50.7%;
+    z-index: -1;
+    opacity: 0.55;
+}
+#clients img{
+    height: 286px;
+}
+.client-item{
+    padding: 18px;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.gallery-item{
+    scroll-snap-type: x mandatory;
+    min-width: 75%;
+}
+.gallery-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.us{
+    margin: 150px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+   
+    background: url('https://media.istockphoto.com/id/1312566254/photo/contact-us-concept-icon-telephone-address-and-email-on-blue-background-3d-illustration.jpg?s=612x612&w=0&k=20&c=ibxUaAea878l9MU53W-3RB0Tkj9i-MIbCOu0LwIHz9c=') no-repeat center center/cover;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+    footer{
+    background-color: black;
+    color: white;
+    padding:9px 20px ;
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+    margin-top: -153px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10px;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 394px;
+    height: 445px;
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 18px;
+    margin-top: 20px;
+    /* text-align: center; */
+  }
+  /* .middle{
+    margin-left: 10px;
+  } */
+  /* .img{
+    width: 1005;
+  } */
+  .abcd{
+    width: 100%;
+  }
